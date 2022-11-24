@@ -16,4 +16,5 @@ void main(){
   stdout.writeln("The model of your mobile is $mo");
   stdout.writeln("The price of your mobile is ₹$price");
   print("The number of cameras in your mobile is $cam");
+  stdout.write("The ram capacity in your mobile is $ram");
 }
