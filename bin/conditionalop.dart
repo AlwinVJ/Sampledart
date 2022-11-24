@@ -27,7 +27,7 @@ void main(){
    int? number;
    print(number?? "There is no value");
    // The code below shows the difference of var and specific datatype
-   var num2 = 100;
-   int r = num2?? 10;
-   print(r);
+   //var num2 = 100;
+   //int r = num2?? 10;
+   //print(r);
    }
