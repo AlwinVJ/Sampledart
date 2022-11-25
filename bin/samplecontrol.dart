@@ -80,5 +80,33 @@ else if( size == 'L'){
 else{
   print('There is no match for your shirt size');
 }
+// Code below shows the working of switch case
+
+var sze = 'XXXL';
+switch (sze) {
+  case 'XS':
+    print('The size is extra small');
+    break;
+  case 'S':
+    print('The size is small');
+    break;
+  case 'M':
+    print('The size is medium');
+    break;
+  case 'L':
+    print('The size is large');
+    break;
+  case 'XL':
+    print('The size is extra large');
+    break;
+  case 'XXL':
+    print('The size is double large');
+    break;
+  case 'XXXL':
+    print('The size is triple large');
+    break;
+  default:
+    print('Not in the listed sizes');
+}
 }
 
