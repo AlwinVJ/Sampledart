@@ -60,4 +60,25 @@ if(marks >= 40){
 }else{
   print("Failed");
 }
+// Code below shows the working of else if ladder
+stdout.writeln('Enter your shirt size');
+String size = stdin.readLineSync()!;
+if (size == 'xs'){
+  print('Your shirt size is extra small');}
+else if( size == 's'){
+  print("Your shirt size is ");
+}else if( size == 'M'){
+  print("Your shirt size is M ");
 }
+else if( size == 'L'){
+  print("Your shirt size is L");
+}else if( size == 'XXL'){
+  print("Your shirt size is XXL ");
+}else if( size == 'XXXL'){
+  print("Your shirt size is XXXL");
+}
+else{
+  print('There is no match for your shirt size');
+}
+}
+
