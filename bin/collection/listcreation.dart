@@ -12,6 +12,7 @@ void main(){
   }
   print("The sum is $sum");
   // The code below prints the count of even and odd numbers seperately from a given list
+  //Shows a sample functioning of for loop related to list
   int ce = 0, cd = 0;
   for(int i = 0; i<numbers.length; i++ ){
     if(numbers[i]%2 == 0){
