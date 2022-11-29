@@ -35,7 +35,7 @@ void main(){
    print("The count of negative numbers in the given list is $cn");
    
    // This code shows the multiple of 2 from the above list
-   print("The multiples of two from the given list are");
+   stdout.write ("The multiples of two from the given list are ");
    for(int i=0;i<list.length;i++){
     if(list[i]!=0 && list[i]%2==0){
       print(list[i]);
@@ -61,5 +61,24 @@ for(int i = 0;i<list.length;i++){
   }
 }
 print("The largest number in the given list is $largest");
+// The code below checks whethere the user-input number in the given list
+
+print("Enter a number to check whethers its in the given list");
+int check = int.parse(stdin.readLineSync()!);
+int result = 0;// an additional variable is declared to print the result based on it's value
+for(int i = 0;i<list.length;i++){
+ if (check == list[i]){
+  result = 1;
+  break;
+ }
 }
+if(result == 1){
+  print("The entered number is in the given list");
+}
+else{
+  print("The entered number is not in the given list");
+}
+}
+
+
 
