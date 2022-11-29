@@ -1,4 +1,6 @@
 // This is the assignment 2 to be submitted to Sridevi ma'am
+import 'dart:io';
+
 void main(){
   List <int> list =  [1,-3,7,9,0,-6,-4,-2,0,10,-8,5];
   // The code below shows the sum of the elements in the above mentioned list
@@ -41,7 +43,7 @@ void main(){
    }
 //This code gives results in the largest number in the given list
     int lar = 0,i=0;
-    print("The largest number in the above list");
+    stdout.write("The largest number in the above list ");
     for(;i<(list.length-1);i++){
       if(list[i]>list[i+1]){
        lar = list[i+1];
