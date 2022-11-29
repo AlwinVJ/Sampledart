@@ -50,5 +50,14 @@ void main(){
      }
       }
     print(list[i]);
+// The code below finds the largest number in the give list in a simplified way
+
+int largest = list[0];
+for(int i = 0;i<list.length;i++){
+  if(largest<list[i]){
+    largest = list[i];
+  }
+}
+print("The largest number in the given list is $largest");
 }
 
