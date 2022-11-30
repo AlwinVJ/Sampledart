@@ -12,11 +12,16 @@ funtion5('Flutter', rate: 25000);// calling optional named function with default
 show();
 print(shows());
 function6();
-print(function6());// A way of calling a default function with a return type
+print(function6());
+// A way of calling a default function with a return type
 //Another way of calling a default function with a return type.
 var c = function6();
 print(c);
-}
+// A way of calling a parametrized function with return type
+print(add(20, 45));
+}// main function ends here, all the other functions are called in main function inorder for 
+// them to work
+
 // The first function is called default function, an example is given below
 void function1(){
   print("Default function");
@@ -61,5 +66,12 @@ String shows() => 'Hello';
 String function6(){
   print('Hello');
   return 'Hai';
+}
+
+//Parametrized function with a return type
+// Here I have given num as a data type to show num is also a datatype or return-type
+num add (int a, int b){
+  var sum = a + b;
+  return sum;
 }
 
