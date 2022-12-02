@@ -20,12 +20,12 @@ class Child extends Parent{
 }
 void main(){
   Child obj1 = Child();
+  
+  print("Your name is ${obj1.name} ${obj1.fname}");
+  print("Your father's name is ${obj1.fname}");
+  print("Your father's age is ${obj1.fage}");
   obj1.work();
-  print("$obj1.name $obj1.fname");
-  print(obj1.fname);
-  print(obj1.fage);
-  print(obj1.name);
-  print(obj1.age);
+  print("Your age is ${obj1.age}");
 
   
   
