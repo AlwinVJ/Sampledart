@@ -1,6 +1,5 @@
 //This program shows the use of "super" keyword
 
-import 'dart:html';
 import 'dart:io';
 
 class Parent{
