@@ -34,5 +34,6 @@ class Vehicles{
       Vehicles obj = Vehicles(make: 'Maruthi',model: 'WagonR',vehicleage: 2011, color: 'Silver White',myear: 2011);
       print(obj.make);
       obj.vehicleage = 2011;
+      print(obj.age);
 
     }
