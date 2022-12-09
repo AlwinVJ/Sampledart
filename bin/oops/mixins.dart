@@ -7,9 +7,7 @@ mixin A {
   String name = 'Alan';
   int age = 26;
 
-  void display(){
-    print("My name is $name and my age is $age");
-  }
+  void display();
 }
  mixin B {
   String input = 'Without a body';
