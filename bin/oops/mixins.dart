@@ -2,7 +2,10 @@
 // It can be used for multiple inheritance but without complete abstraction more like
 // a class
 // Keyword used for mixins is mixin and inherit mixins using the keyword with
+// mixin should be given priority over interface
+// class should be given priority over mixins
 
+// This mixin can create abstract functions
 mixin A {
   String name = 'Alan';
   int age = 26;
